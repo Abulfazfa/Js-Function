@@ -84,3 +84,66 @@
 // }
 // func5(arr);
 ///////////////////////
+
+////////task-7/////////
+// let arr = [];
+// for (let i = 0; i < 5; i++) {
+//      arr[i]  = parseInt(prompt());
+// }
+// var max = Math.max(...arr);
+// console.log(max);
+///////////////////////
+
+////////task-8/////////
+// let arr = [];
+// let sum = 0;
+// for (let i = 0; i < 5; i++) {
+//      arr[i]  = parseInt(prompt());
+//      if(arr[i]%2 == 0){
+//          sum += arr[i];
+//      }
+// }
+// console.log(sum);
+///////////////////////
+
+////////task-9/////////
+// let first = parseInt(prompt());
+// let second = parseInt(prompt());
+// console.log(first**second);
+///////////////////////
+
+////////task-10/////////
+// let sum = 0;
+// for(let i = 0; i < 8000; i += 2){
+//     sum += i;
+// }
+// console.log(sum);
+
+////////task-11/////////
+// let sum = 0;
+// let div;
+// let number = parseInt(prompt());
+// while (number){
+//     div = number % 5;
+//     number = Math.floor(number/10);
+//     sum += div;
+// }
+// console.log(sum);
+
+////////task-12/////////
+// let word = prompt();
+// let letter = prompt();
+// findWord(letter, word);
+// function findWord(letter, word) {
+//     for (i = 0; i < word.length; i++){
+//         if (word[i] == letter){
+//             console.log(i);
+//             return;
+//         }
+        
+//     } 
+//     console.log("-1");
+// }
+
+
+
